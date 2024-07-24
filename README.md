@@ -39,7 +39,7 @@ Jammming is a web application that allows users to search the Spotify library, c
 
 3. **Add a loading screen while playlist is saving**
 
-4. **Update the access token logic to expire at exactly the right time, instead of setting expiration from when the user initiates their next search*
+4. **Update the access token logic to expire at exactly the right time, instead of setting expiration from when the user initiates their next search**
 
 5. **After user redirect on login, restoring the search term from before the redirect**:
 
