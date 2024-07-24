@@ -1,7 +1,11 @@
-# Jammming
+# Jammming-Project
 
 ## Purpose
 Jammming is a web application that allows users to search the Spotify library, create custom playlists, and save them to their Spotify accounts. This project demonstrates the integration of React with the Spotify API to create a responsive and interactive music playlist management tool.
+
+## Screenshots
+![Screenshot 2024-07-24 155122](https://github.com/user-attachments/assets/041aeaca-59c9-4651-8aee-e2a7e1137aaa)
+![Screenshot 2024-07-24 155601](https://github.com/user-attachments/assets/e5c11ec0-65be-4cff-8371-eed99ac8847b)
 
 ## Technologies Used
 - HTML5
