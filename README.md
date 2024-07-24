@@ -33,25 +33,17 @@ Jammming is a web application that allows users to search the Spotify library, c
    - The application is fully responsive and works on desktop and mobile devices
 
 ## Future Work
-1. **Enhanced Search Functionality**:
-   - Implement search by artist, album, and genre
-   - Add filters to refine search results
+1. **Include preview samples for each track**
 
-2. **Playlist Management**:
-   - Allow users to edit and delete existing playlists
-   - Implement drag-and-drop functionality for reordering songs in a playlist
+2. **Only display songs not currently present in the playlist in the search results**:
 
-3. **Audio Preview**:
-   - Add a feature to preview short audio clips of songs
+3. **Add a loading screen while playlist is saving**
 
-4. **Social Sharing**:
-   - Enable users to share their playlists on social media platforms
+4. **Update the access token logic to expire at exactly the right time, instead of setting expiration from when the user initiates their next search*
 
-5. **Recommendation Engine**:
-   - Implement a song recommendation feature based on the user's playlist and listening history
+5. **After user redirect on login, restoring the search term from before the redirect**:
 
-6. **Offline Mode**:
-   - Develop functionality for users to access their playlists offline
+6. **Ensure playlist information doesn’t get cleared if a user has to refresh their access token**:
 
 ## Prerequisites
 To run this project, you should have a good understanding of:
