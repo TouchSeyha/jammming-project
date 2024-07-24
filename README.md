@@ -30,7 +30,7 @@ Jammming is a web application that allows users to search the Spotify library, c
    - Custom playlists can be saved directly to the user's Spotify account
 
 4. **Responsive Design**:
-   - The application is fully responsive and works on desktop and mobile devices
+   - The application is fully responsive and works on desktop Web.
 
 ## Future Work
 1. **Include preview samples for each track**
@@ -53,12 +53,3 @@ To run this project, you should have a good understanding of:
 - React
 - HTTP Requests and Responses
 - Authentication mechanisms
-
-## Setup and Installation
-(Include steps to set up the project locally, including any API keys or environment variables needed)
-
-## Contributing
-(Include guidelines for how others can contribute to your project)
-
-## License
-(Specify the license under which your project is released)
