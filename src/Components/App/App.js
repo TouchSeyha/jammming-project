@@ -13,10 +13,8 @@ const App = () => {
 
 
     const search = useCallback((term) => {
-    
         Spotify.search(term).then(setSearchResults);
-    
-    }, []);
+      }, []);
 
     const addTrack = useCallback(
         (track) => {
@@ -64,6 +62,21 @@ const App = () => {
               />
             </div>
           </div>
+          <footer className="footer">
+            <div className="footer-content">
+                <div className="footer-name">
+                    Touch Seyha
+                </div>
+
+                <div className="footer-github">                
+                    <a href="https://github.com/TouchSeyha" className="github-username" target="_blank" rel="noopener noreferrer"><img src="Git.png" alt="GitHub" className="github-logo"/></a>
+                </div>
+                    <div class="footer-contact">
+                        <a href="mailto:hcy.contactbs@gmail.com">hcy.contactbs@gmail.com</a>
+                        <span className="footer-phone">+(855) 967-097-999</span>
+                </div>
+            </div>
+        </footer>
         </div>
       );
 };

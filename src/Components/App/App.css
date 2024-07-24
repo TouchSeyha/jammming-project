@@ -29,7 +29,7 @@ h2 {
 
 .App {
   height: 100%;
-  padding: 0 17% 10% 17%;
+  padding: 0 13% 30% 13%;
   background-image: url('/src/Images/background.avif');
   background-size:cover;
   background-position: center;
@@ -49,5 +49,70 @@ h2 {
   .App-playlist {
     align-items: center;
     flex-direction: column;
+  }
+}
+
+.footer {
+  background-color: rgb(1, 12, 63);
+  color: #fff;
+  padding: 25px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-name {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.footer-github {
+  display: flex;
+  align-items: center;
+}
+
+.github-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.footer-contact {
+  text-align: right;
+}
+
+.footer-contact a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  text-decoration: underline;
+}
+
+.footer-phone {
+  display: block;
+  margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-github, .footer-contact {
+    margin-top: 10px;
+  }
+
+  .footer-contact {
+    text-align: center;
   }
 }
