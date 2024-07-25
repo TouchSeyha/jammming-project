@@ -13,8 +13,7 @@ Jammming is a web application that allows users to search the Spotify library, c
 - JavaScript (ES6+)
 - React
 - Spotify API
-- RESTful API principles
-- OAuth for authentication
+- Netlify
 
 ## Features
 1. **Song Search**: 
@@ -53,3 +52,4 @@ To run this project, you should have a good understanding of:
 - React
 - HTTP Requests and Responses
 - Authentication mechanisms
+- Netlify
