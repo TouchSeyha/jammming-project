@@ -1,4 +1,4 @@
-const clientId = '43b75f4f573e4e1d94f5a34f46ced125'; // Insert client ID here.
+const clientId = ''; // Insert client ID here.
 const redirectUri = 'https://hcyjamming.netlify.app'; // Have to add this to your accepted Spotify redirect URIs on the Spotify API.
 let accessToken;
 
