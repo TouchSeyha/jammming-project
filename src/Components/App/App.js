@@ -15,9 +15,9 @@ const App = () => {
     Spotify.search(term).then(setSearchResults);
   }, []);
 
-  const play = useCallback((track) => {
-    Spotify.play(track);
-  }, []);
+  // const play = useCallback((track) => {
+  //   Spotify.play(track);
+  // }, []);
 
   const addTrack = useCallback(
     (track) => {
